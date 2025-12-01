@@ -43,6 +43,10 @@ cd ..
 3. Levantar los contenedores
 
 ```bash
+# En Mac / Docker Desktop moderno
+docker compose up --build
+
+# En Linux o instalaciones más antiguas
 docker-compose up --build
 ```
 
