@@ -1,0 +1,19 @@
+Tailwind:
+para poder utilizar Tailwind CSS en tu aplicación de React, es necesario hacer una instalación inicial y realizar algunos pasos para que funcione correctamente en tu proyecto. Los pasos básicos son estos:
+Instalar Tailwind y sus dependencias
+Debes ejecutar un comando para instalar Tailwind CSS, PostCSS y Autoprefixer:
+autoprefixer
+npm install -D tailwindcss postcss autoprefixer
+Inicializar la configuración de Tailwind
+Esto crea los archivos de configuración de Tailwind y PostCSS:
+npx tailwindcss init -p
+Configurar los paths en tailwind.config.js
+Asegúrate de que la propiedad content incluya tus archivos fuente para que Tailwind los escanee y genere los estilos correctos.
+Importar las directivas de Tailwind en tu CSS principal
+Agrega estas líneas al inicio de tu archivo src/index.css (o donde manejes los estilos globales):
+
+Drag an Drop:
+dnd-kit: Librería de drag & drop compatible con CSS Grid.
+
+Fortawesome:
+Libreria para iconos
